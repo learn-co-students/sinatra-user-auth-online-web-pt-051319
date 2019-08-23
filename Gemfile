@@ -11,6 +11,9 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 
+gem 'fileutils', '~>1.2.0'
+
+
 group :test do
   gem 'launchy'
   gem 'rspec'
